@@ -38,6 +38,7 @@ Opcion: 1
 Ingresa la cantidad: 100
 Cantidad convertida: 29,300.00 ARS
 
+
 ##Estructura del Código
 MonedaPrincipal.java: Es el archivo principal que contiene la lógica del menú y el manejo de entradas del usuario.
 ConversionDeDivisas.java:  Aquí estaría la clase que maneja la lógica de conversión entre diferentes monedas.
