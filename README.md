@@ -23,27 +23,27 @@ Ingresa la cantidad de dinero que deseas convertir.
 El programa te mostrará la cantidad convertida según la tasa de cambio definida en el código.
 
 ###Ejemplo de Uso
-**********************************************
-BIENVENIDO
-Por favor Selecciona una de las siguiente OPCIONES para la conversion de divisas:
-1.Dólar(USD) -> Peso Argentino(ARS)
-2.Peso Argentino(ARS) -> Dólar(USD)
-3.Dólar(USD) -> Real Brasileño(BRL)
-4.Real Brasileño(BRL) -> Dólar(USD)
-5.Dólar(USD) -> Peso Colombiano(COP)
-6.Peso Colombiano(COP) -> Dólar(USD)
-7.Salir
-
-Opcion: 1
-Ingresa la cantidad: 100
-Cantidad convertida: 29,300.00 ARS
+  **********************************************
+  BIENVENIDO
+  Por favor Selecciona una de las siguiente OPCIONES para la conversion de divisas:
+    1.Dólar(USD) -> Peso Argentino(ARS)
+    2.Peso Argentino(ARS) -> Dólar(USD)
+    3.Dólar(USD) -> Real Brasileño(BRL)
+    4.Real Brasileño(BRL) -> Dólar(USD)
+    5.Dólar(USD) -> Peso Colombiano(COP)
+    6.Peso Colombiano(COP) -> Dólar(USD)
+    7.Salir
+  
+  Opcion: 1
+  Ingresa la cantidad: 100
+  Cantidad convertida: 29,300.00 ARS
 
 
 ##Estructura del Código
-MonedaPrincipal.java: Es el archivo principal que contiene la lógica del menú y el manejo de entradas del usuario.
-ConversionDeDivisas.java:  Aquí estaría la clase que maneja la lógica de conversión entre diferentes monedas.
-ConsultaDeDivisas.java:  Aquí estaría la clase que maneja la consulta de divisas desde una API para realizar la respectiva conversión.
-Monedas.java: Permite extraer los parametros deseados para las divisas requeridas del objeto Json entregado por la API.
+-MonedaPrincipal.java: Es el archivo principal que contiene la lógica del menú y el manejo de entradas del usuario.
+-ConversionDeDivisas.java:  Aquí estaría la clase que maneja la lógica de conversión entre diferentes monedas.
+-ConsultaDeDivisas.java:  Aquí estaría la clase que maneja la consulta de divisas desde una API para realizar la respectiva conversión.
+-Monedas.java: Permite extraer los parametros deseados para las divisas requeridas del objeto Json entregado por la API.
 
 ##Manejo de Errores
 El programa tiene manejo de excepciones para entradas inválidas:
